@@ -13,10 +13,14 @@ export default defineConfig({
       {
         text: "Documentation",
         items: [
-          { text: "Introduction", link: "/" },
-          { text: "Other things", link: "/other" },
+          { text: "Introduction", link: "/docs/" },
+          { text: "Other things", link: "/docs/other" },
         ],
       },
     ],
+    footer: {
+      message: "Released under the MIT License.",
+      copyright: "Copyright © 2023-present FLzyy",
+    },
   },
 });
