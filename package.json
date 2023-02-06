@@ -1,13 +1,14 @@
 {
-	"private": true,
-	"type": "module",
-	"scripts": {
-		"start": "vitepress dev src",
-		"build": "vitepress build src",
-		"preview": "vitepress preview src"
-	},
-	"devDependencies": {
-		"vitepress": "1.0.0-alpha.45",
-		"prettier": "^2.8.3"
-	}
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vitepress dev src",
+    "build": "vitepress build src",
+    "preview": "vitepress preview src",
+    "fix": "prettier --write ./"
+  },
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.45",
+    "prettier": "^2.8.3"
+  }
 }
