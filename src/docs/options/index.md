@@ -8,7 +8,6 @@ title: Language
 Create-vitepress-app has two options of available languages, Typescript and Javascript, however these options do not affect your actual markdown code and only affect the following:
 
 - Config - Determines file extension of `src/.vitepress/config.ts`
-- Component - Determines the `lang` attribute on the script block in the included Vue component.
 
 ## Difference
 
