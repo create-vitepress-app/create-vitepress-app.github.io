@@ -47,3 +47,20 @@ Toggles prettier on and skips it's corresponding prompt. [Learn more](../options
 ```sh
 $ npm init vitepress-app@latest -- -p
 ```
+
+## `--packageManager, --m`
+
+Sets the package manager to use when installing, if set to "n" it will not install dependencies and still skip it's corresponding prompt.
+
+### Choices
+
+- `npm`
+- `pnpm`
+- `yarn`
+- `n`
+
+### Usage
+
+```sh
+$ npm init vitepress-app@latest -- --m=pnpm
+```
