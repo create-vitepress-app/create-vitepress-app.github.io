@@ -12,10 +12,7 @@ export default defineConfig({
     sidebar: [
       {
         text: "Documentation",
-        items: [
-          { text: "Introduction", link: "/docs/" },
-          { text: "Other things", link: "/docs/other" },
-        ],
+        items: [{ text: "Introduction", link: "/docs/" }],
       },
     ],
     footer: {
