@@ -8,7 +8,9 @@ export default defineConfig({
 
   themeConfig: {
     logo: "/static/logo.svg",
+
     nav: [{ text: "Docs", link: "/docs/" }],
+
     sidebar: [
       {
         text: "Documentation",
@@ -32,9 +34,20 @@ export default defineConfig({
         ],
       },
     ],
+
     footer: {
       message: "Released under the MIT License.",
       copyright: "Copyright © 2023-present FLzyy",
+    },
+
+    socialLinks: [
+      { icon: "github", link: "https://github.com/create-vitepress-app/core" },
+    ],
+
+    editLink: {
+      pattern:
+        "https://github.com/create-vitepress-app/create-vitepress-app.github.io/edit/main/src/:path",
+      text: "Edit this page",
     },
   },
 });
