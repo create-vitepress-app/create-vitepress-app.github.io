@@ -8,15 +8,10 @@
     "fix": "prettier --write ./"
   },
   "devDependencies": {
-    "flexsearch": "^0.7.31",
-    "markdown-it": "^13.0.1",
     "prettier": "^2.8.3",
-    "vitepress": "1.0.0-alpha.45",
-    "vitepress-plugin-search": "1.0.4-alpha.19"
-  },
-  "dependencies": {
-    "@algolia/client-search": ">= 4.9.1 < 6",
     "vite": "^4.1.1",
-    "vue": "3"
+    "vitepress": "1.0.0-alpha.45",
+    "vue": "3",
+    "@algolia/client-search": ">= 4.9.1 < 6"
   }
 }
