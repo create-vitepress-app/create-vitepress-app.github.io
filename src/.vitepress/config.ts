@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   lang: "en-US",
-  title: "Vitepress App",
+  title: "create-vitepress-app",
   description: "A Vitepress app.",
   cleanUrls: true,
 
