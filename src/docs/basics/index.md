@@ -80,4 +80,4 @@ Contains files used by the example pages.
 
 Logo of create-vitepress-app.
 
-<img src="../../static/logo.svg" width=200/>
+<img src="/favicon.svg" width=200/>
