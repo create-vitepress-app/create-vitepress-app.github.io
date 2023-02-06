@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 19.6.0
           cache: pnpm
-      - run: pnpm ci
+      - run: pnpm i --frozen-lockfile
 
       - name: Build
         run: pnpm build
