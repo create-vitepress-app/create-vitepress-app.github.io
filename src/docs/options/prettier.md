@@ -13,15 +13,21 @@ If you chose to enable Prettier in your Vitepress app, you'll see a few extra fi
 
 To format all files in your app, simply run the following command in your terminal:
 
-    $ npx prettier --write .
+```sh
+$ npx prettier --write .
+```
 
 To format all markdown files in folder:
 
-    $ npx prettier --write folder/**/*.md
+```sh
+$ npx prettier --write folder/**/*.md
+```
 
 To format all files in the root directory:
 
-    $ npx prettier --write ./*
+```sh
+$ npx prettier --write ./*
+```
 
 You can [learn more about Prettier's CLI here](https://prettier.io/docs/en/cli.html).
 

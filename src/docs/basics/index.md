@@ -5,20 +5,22 @@ title: Project Structure
 
 # Project Structure
 
-    README.md
-    package.json
-    .prettierignore # Prettier only
-    .prettierrc.json # Prettier only
-    .gitignore
-    src
-    ├── .vitepress
-    │   └── config.(js/ts)
-    ├── docs
-    │   ├── index.md
-    │   └── other.md
-    ├── index.md
-    └── static
-        └── logo.svg
+```sh
+README.md
+package.json
+.prettierignore # Prettier only
+.prettierrc.json # Prettier only
+.gitignore
+src
+├── .vitepress
+│   └── config.(js/ts)
+├── docs
+│   ├── index.md
+│   └── other.md
+├── index.md
+└── static
+    └── logo.svg
+```
 
 After you've generated your Vitepress app, you should see a project structure similar to the one above.
 

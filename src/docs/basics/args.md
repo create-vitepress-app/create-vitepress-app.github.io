@@ -9,7 +9,9 @@ Though create-vitepress-app has a CLI interface that you can interact with, It a
 
 ## Usage
 
-    $ npm init vitepress-app@latest -- [directory] [args]
+```sh
+$ npm init vitepress-app@latest -- [directory] [args]
+```
 
 ## `[directory]`
 
@@ -17,7 +19,9 @@ Sets the directory in which your app is created and skips it's corresponding pro
 
 ### Usage
 
-    $ npm init vitepress-app@latest my-vitepress-app
+```sh
+$ npm init vitepress-app@latest my-vitepress-app
+```
 
 ## `--language, --l`
 
@@ -30,7 +34,9 @@ Sets the language you want to use in your Vitepress app and skips it's correspon
 
 ### Usage
 
-    $ npm init vitepress-app@latest -- --l=ts
+```sh
+$ npm init vitepress-app@latest -- --l=ts
+```
 
 ## `--prettier, -p`
 
@@ -38,4 +44,6 @@ Toggles prettier on and skips it's corresponding prompt. [Learn more](../options
 
 ### Usage
 
-    $ npm init vitepress-app@latest -- -p
+```sh
+$ npm init vitepress-app@latest -- -p
+```

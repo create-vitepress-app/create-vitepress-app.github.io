@@ -16,7 +16,9 @@ title: Introduction
 
 To initialize a new Vitepress project simply run the following command in your terminal:
 
-    $ npm init vitepress-app@latest
+```sh
+$ npm init vitepress-app@latest
+```
 
 It will display a CLI (Command Line Interface) that asks a few questions:
 
