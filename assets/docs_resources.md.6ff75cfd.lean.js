@@ -1,1 +1,0 @@
-import{_ as e,c as r,o as s,a as t}from"./app.b7926cb5.js";const f=JSON.parse('{"title":"Resources","description":"","frontmatter":{"layout":"doc","title":"Resources"},"headers":[],"relativePath":"docs/resources.md"}'),a={name:"docs/resources.md"},o=t("",3),i=[o];function c(n,l,_,u,d,p){return s(),r("div",null,i)}const g=e(a,[["render",c]]);export{f as __pageData,g as default};
