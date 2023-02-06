@@ -32,3 +32,13 @@ create-vitepress-app
 
 ? Do you want to enable prettier ? › no / yes
 ```
+
+[Learn more about these questions](basics/)
+
+And after that it'll initialize and get the files for your project, after it'll ask you to install your dependencies. If you choose to install them know, you won't have to later.
+
+Once you've got everything ready and all dependencies have been installed you can run the following command to start web-app:
+
+```sh
+$ npm start # or pnpm/yarn
+```
