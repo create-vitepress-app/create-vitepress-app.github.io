@@ -19,3 +19,7 @@ Simply add the following to the top of your Javascript file and it should start 
 ```js
 // @ts-check
 ```
+
+## Resources
+
+- [Typescript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
