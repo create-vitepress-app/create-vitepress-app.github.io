@@ -12,7 +12,24 @@ export default defineConfig({
     sidebar: [
       {
         text: "Documentation",
-        items: [{ text: "Introduction", link: "/docs/" }],
+        items: [
+          { text: "Introduction", link: "/docs/" },
+          {
+            text: "Basics",
+            items: [
+              { text: "Project Structure", link: "/docs/basics/" },
+              { text: "Command Line Arguments", link: "/docs/basics/args" },
+            ],
+          },
+          {
+            text: "Options",
+            items: [
+              { text: "Language", link: "/docs/options/" },
+              { text: "Prettier", link: "/docs/options/prettier" },
+            ],
+          },
+          { text: "Resources", link: "/docs/resources" },
+        ],
       },
     ],
     footer: {
